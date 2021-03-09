@@ -1,0 +1,52 @@
+body {
+  background-color: #2a9d8f;
+}
+
+.form-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+input, textarea, button, select {
+  display: block;
+  height: 35px;
+  width: 100%;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+textarea {
+  height: 120px;
+}
+
+h1 {
+  font-size: 80px;
+  -webkit-text-fill-color: #264653;
+  /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #e76f51;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 700;
+}
+
+.thanks {
+  text-align: center;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-size: 20px;
+  line-height: 20px;
+  text-transform: uppercase;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */

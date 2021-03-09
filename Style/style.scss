@@ -1,0 +1,63 @@
+// Colors variables
+
+$orange-color:#e76f51;
+$light-oragne-color: #f4a261;
+$yellow-color: #e9c46a;
+$light-green: #2a9d8f;
+$dark-green: #264653;
+
+body{
+    background-color: $light-green;
+}
+
+
+.form-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+
+// form{
+//   background-color: $dark-green ;
+//   padding: 20px;
+// }
+
+input,textarea,button,select{
+display: block;
+height: 35px;
+width: 100%;
+margin: 10px;
+border-radius: 5px;
+}
+
+textarea {height: 120px;}
+
+
+
+h1{
+
+font-size: 80px;
+-webkit-text-fill-color: $dark-green; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: $orange-color;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 700;
+
+}
+
+.thanks{
+    text-align: center;
+display: block;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+font-size: 20px;
+line-height: 20px;
+text-transform: uppercase;
+user-select: none;
+color: white;
+}
